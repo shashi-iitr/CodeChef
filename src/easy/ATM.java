@@ -13,6 +13,7 @@ public class ATM {
 		double balance=in.nextFloat();
 		
 		if(money%5==0 && (money+0.50)<balance){
+			
 			double withdraw=balance-money-0.50;
 			System.out.printf("%.2f",withdraw);
 		}
@@ -20,3 +21,4 @@ public class ATM {
 			System.out.printf("%.2f",balance);
 	}
 }
+// nothing changed
